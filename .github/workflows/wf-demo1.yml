@@ -1,12 +1,12 @@
 name: Mon premier Workflow
 on: workflow_dispatch
-job:
-  premierJob:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Mon premier job
-      run: echo "Demarrage du jobs"
-    - name: Mes permieres instructions
-      run: ls /
-    - name: Fin du premier Job
-      run: echo "that's all Folks" 
+jobs:
+   premierJob:
+     runs-on: ubuntu-latest
+     steps:
+      - name: Mon premier job
+        run: echo "Demarrage du jobs"
+      - name: Mes permieres instructions
+        run: ls /
+      - name: Fin du premier Job
+        run: echo "that's all Folks" 
